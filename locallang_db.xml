@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'holidays'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_holidays_holidays">Holidays</label>
+			<label index="tx_holidays_holidays.name">Name</label>
+			<label index="tx_holidays_holidays.type.I.0">Fixed date</label>
+			<label index="tx_holidays_holidays.type.I.1">Easter-related date</label>
+			<label index="tx_holidays_holidays.type">Holiday type</label>
+			<label index="tx_holidays_holidays.day">Day</label>
+			<label index="tx_holidays_holidays.country_exclude">Not in the following countries</label>
+			<label index="tx_holidays_holidays.country_only">Only in the following countries</label>
+			<label index="tx_holidays_holidaynames">Local names of holidays</label>
+			<label index="tx_holidays_holidaynames.holiday_uid">Holiday</label>
+			<label index="tx_holidays_holidaynames.language_uid">Language</label>
+			<label index="tx_holidays_holidaynames.local_name">Local name</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_holidays_holidays">Feiertage</label>
+			<label index="tx_holidays_holidays.name">Name</label>
+			<label index="tx_holidays_holidays.type.I.0">Festes Datum</label>
+			<label index="tx_holidays_holidays.type.I.1">Datum orientiert sich am Osterdatum</label>
+			<label index="tx_holidays_holidays.type">Feiertagstyp</label>
+			<label index="tx_holidays_holidays.day">Tag</label>
+			<label index="tx_holidays_holidays.country_exclude">Nicht in den folgenden Ländern</label>
+			<label index="tx_holidays_holidays.country_only">Nur in den folgenden Ländern</label>
+			<label index="tx_holidays_holidaynames">Lokale Namen der Feiertage</label>
+			<label index="tx_holidays_holidaynames.holiday_uid">Feiertag</label>
+			<label index="tx_holidays_holidaynames.language_uid">Sprache</label>
+			<label index="tx_holidays_holidaynames.local_name">Lokaler Name</label>
+		</languageKey>
+	</data>
+</T3locallang>
