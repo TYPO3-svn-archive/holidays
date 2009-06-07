@@ -36,5 +36,5 @@ $TCA['tx_holidays_holidaynames'] = array (
 		'iconfile'          => t3lib_extMgm::extRelPath($_EXTKEY).'icon_tx_holidays_holidaynames.gif',
 	),
 );
-
+t3lib_extMgm::addStaticFile($_EXTKEY,'static/holidays/', 'holidays');
 ?>
